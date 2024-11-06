@@ -1,0 +1,347 @@
+/* Category Slider */
+.Category-top {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}
+.categry-in {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  height: 100%;
+  align-items: center;
+  overflow: scroll;
+  overflow-y: hidden;
+  background-color: white;
+  scrollbar-width: none;
+  box-shadow: 0 0 3px 1px #c1a6a6;
+  border-radius: 13px;
+}
+
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 32%;
+  height: 80%;
+  margin: 0 36px;
+  cursor: pointer;
+}
+.cat-item:hover {
+  box-shadow: 0 0px 2px #ddbafa;
+}
+.cat-item > a{
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+img.cat-itm {
+  height: 69%;
+}
+
+h2.category-name-text {
+  font-size: large;
+}
+/* Hot Deals */
+.Hot-slider {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.Slide {
+  height: 100%;
+  width: 95%;
+  border-radius: 17px;
+  overflow: hidden;
+  background-image: url('../Assets/slideer.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.next-prev {
+  border: 1px solid;
+  height: 6rem;
+  width: 3rem;
+  border-radius: 6px;
+  border: navajowhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  cursor: pointer;
+  background-color: white;
+}
+/* product sliders */
+.product-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.poduct-row {
+  width: 95%;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 3px 1px #c1a6a6;
+}
+
+h1.product-lebal-h1 {
+  font-size: larger;
+  margin-left: 2.2rem;
+  font-size: x-large;
+}
+
+.product-sub-row {
+  height: 98%;
+}
+.button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.left-ri {
+  font-size: xxx-large;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 0 2px rebeccapurple;
+}
+.main-itme {
+  display: flex;
+  overflow-x: scroll;
+  height: 100%;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+/* left-right-button */
+.button-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.slide.go {
+  height: 4rem;
+  width: 1.8rem;
+  font-size: xxx-large;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #eed9d9;
+}
+
+.product-slide-box {
+  border: 1px solid;
+  width: 12rem;
+  display: flex;
+  height: 41vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 9px;
+  box-shadow: -1px 1px 1px 0px #232761;
+  cursor: pointer;
+}
+
+img.product-slide-box- {
+  width: 10em;
+}
+
+.product-box-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.product-title {
+  font-size: larger;
+  font-weight: 300;
+}
+
+span.price {
+  font-size: small;
+}
+/* Smart Deals */
+.Smarl-Dealer {
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.smartDeal-cnt {
+  background-image: url('../Assets/smartdeal.png');
+  background-size: cover;
+  cursor: pointer;
+  height: 100%;
+  width: 31%;
+}
+.smartDeal-cnt {
+  border-radius: 12px;
+}
+.sub-smart-dealer {
+  width: 95%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  gap: 13px;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 3px 1px #c1a6a6;
+  /* padding: 1rem 0; */
+}
+/* Product scheme container */
+.product-scheme-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+.smartDeal-cnt {
+  border-radius: 12px;
+  width: 100%;
+}
+
+/* Card layout */
+.scheme-product {
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  width: 320px;
+  cursor: pointer;
+  height: 16.4rem;
+}
+
+/* Hover effects */
+.scheme-product:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.scheme-product:hover .product-detail-div::after {
+  height: 100%;
+}
+
+/* Image container */
+.product-scheme-image {
+  width: 100%;
+  height: 243px;
+  object-fit: cover;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  z-index: 2;
+}
+.scheme-proudct-details {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+/* Product details */
+.product-detail-div {
+  padding: 20px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  /* position: absolute; */
+  z-index: 0;
+  height: 100%;
+}
+.product-detail-div:hover{
+  .scheme-proudct-details {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7367af42;
+    flex-direction: column;
+  }
+}
+
+/* Fancy border animation on hover */
+.product-detail-div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: rgba(63, 94, 251, 0.5);
+  border-radius: 20px 20px 0 0;
+  z-index: -1;
+  transition: height 0.4s ease;
+}
+
+/* Title and product information */
+.product {
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.product-description {
+  color: #555;
+  font-size: 0.95em;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.3em;
+  color: #3f5efb;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-scheme-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scheme-product {
+    width: 90%;
+  }
+}

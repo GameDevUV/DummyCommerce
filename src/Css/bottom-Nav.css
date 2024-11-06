@@ -1,0 +1,7 @@
+.bottom-navbar{
+    position: fixed;
+    bottom: 0;
+}
+nav.bottom-navbar.b-nav2 {
+    background: #f6f6f6;
+}
